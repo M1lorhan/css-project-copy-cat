@@ -1,0 +1,32 @@
+* {
+    border: 1px solid pink;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-image; url()
+}
+ul {
+
+}
+
+li {
+    display: inline;
+
+}
+
+
+
+.socials {
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    gap: 8em;
+}
+
+
