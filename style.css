@@ -1,22 +1,82 @@
-* {
-    border: 1px solid pink;
-}
+
 
 nav {
-    position: sticky;
-    top: 0;
-    background-image; url()
-}
-ul {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em;
+    color: white;
 
 }
 
-li {
+.homepage {
+    margin: 0.5em 3em;
+    text-decoration: none;
+    color: white;
+}
+
+.subpage {
+    float: right;
+    margin: 0.5em 2em 0.5em 0;
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
     display: inline;
-
 }
 
+.hero-image {
+    margin-top: 0;
+    z-index: 0;
+}
+.motto {
+    text-align: center;
+    margin: 0 6em;
+}
+h2 {
+    font-family: 'DM Serif Display', serif;
+}
 
+p {
+    font-family: 'Play', sans-serif;
+}
+
+.models {
+    display: flex;
+    Margin: 0.5em 6em;
+    align-items: center;
+}
+.fashion {
+    display: flex;
+    margin: 0.5em 6em;
+    align-items: center;
+}
+.performance {
+    display: flex;
+    margin: 0.5em 6em;
+    align-items: center;
+}
+.photos {
+    display: flex;
+    margin: 0.5em 6em;
+    align-items: center;
+}
+footer {
+    background-color: rgb(77, 77, 77);
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+
+.grid-container {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    margin: 2em;
+}
+.Privacy li {
+    list-style: none;
+}
 
 .socials {
     background-color: black;
